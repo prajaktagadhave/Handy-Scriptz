@@ -3,8 +3,8 @@
   $msg = "";
 
   if(isset($_POST['save'])) {
-    $nama = $_POST['nama'];
-    $akses = $_POST['akses'];
+    $nama = $_POST['name'];
+    $akses = $_POST['address'];
     $row = $_GET['row'];
     $query = "INSERT INTO people(name, address) VALUES";
     for ($i = 0; $i < $row; $i++) { 
